@@ -14,7 +14,7 @@ module.exports = function(app) {
             devoured: req.body.devoured
         }, {
             where: {
-                id: req.param.id
+                id: req.params.id
             }
         }).then( (burgerdb) => {
             res.redirect("/");
