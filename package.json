@@ -1,0 +1,28 @@
+{
+  "name": "burger-database-sequelized",
+  "version": "1.0.0",
+  "description": "A sequelized burger database",
+  "main": "server.js",
+  "dependencies": {
+    "express-handlebars": "^3.0.0",
+    "body-parser": "^1.17.1",
+    "method-override": "^2.3.8",
+    "express": "^4.15.2",
+    "sequelize": "^3.30.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtpetros/burger-database-sequelized.git"
+  },
+  "author": "Peter Almon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtpetros/burger-database-sequelized/issues"
+  },
+  "homepage": "https://github.com/mtpetros/burger-database-sequelized#readme"
+}
