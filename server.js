@@ -23,7 +23,7 @@ require("./routes/html-routes.js")(app);
 require("./routes/api-routes.js")(app);
 
 var db = require("./models");
-//db sync (inserts some default data that gets recreated after each sync) and port listener
+//db sync (inserts some seed data that gets recreated after each sync) and port listener
 db.sequelize.sync({ force: true }).then(function () {
     db.Burger.bulkCreate([
         {burger_name: 'tasty buns'},
